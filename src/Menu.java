@@ -11,9 +11,9 @@ public class Menu {
     public static void menu() {
         System.out.println("Menu Parking System");
         System.out.println("1. Create Parking Lot");
-        System.out.println("2. Park");
-        System.out.println("3. Leave");
-        System.out.println("4. Status");
+        System.out.println("2. Parking Vehicle");
+        System.out.println("3. Vehicle Leave Slot");
+        System.out.println("4. Display Status Parking Lot");
         System.out.println("5. Count Vehicle By Type");
         System.out.println("6. Get Registration Number By Odd Number Plate");
         System.out.println("7. Get Registration Number By Even Number Plate");
