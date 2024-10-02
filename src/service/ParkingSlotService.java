@@ -44,8 +44,10 @@ public class ParkingSlotService {
             parkingSlot.setAvailable(true);
             parkingSlot.setVehicle(null);
             System.out.println("Slot number "+ parkingSlot.getSlot()+" is free");
+            System.out.println();
         } else {
             System.out.println("Parking slot is empty");
+            System.out.println();
         }
     }
 

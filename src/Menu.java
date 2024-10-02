@@ -10,6 +10,7 @@ public class Menu {
 
     public static void menu() {
         System.out.println("Menu Parking System");
+        System.out.println("=".repeat(100));
         System.out.println("1. Create Parking Lot");
         System.out.println("2. Parking Vehicle");
         System.out.println("3. Vehicle Leave Slot");
@@ -59,6 +60,7 @@ public class Menu {
                     getSlotByNumber();
                     break;
                 case 11:
+                    System.out.println("Thank you for using Parking System");
                     return;
                 default:
                     System.out.println("Invalid command");
